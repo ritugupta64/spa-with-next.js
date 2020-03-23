@@ -1,0 +1,116 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.inner-container {
+  background-color: ghostwhite;
+  padding: 20px;
+  width: 100%;
+}
+.navigation {
+  padding: 20px;
+}
+.navigation a {
+  display: block;
+}
+/* .button-primary span{
+  display: none
+}  */
+.button-primary span {
+  border: 0;
+  clip: react(0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0px;
+  position: absolute;
+  width: 1px;
+  white-space: no-wrap;
+}
+svg {
+  width: 40px;
+}
+
+.button-error svg {
+  fill: red;
+}
+
+.pop-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup {
+  max-width: 320px;
+  width: 100%;
+  background-color: honeydew;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 20px;
+}
+.inner-container input {
+  display: block;
+  padding: 10px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.wrapper{
+  max-width:960px;
+  width: 100%;
+  margin: 0 auto;
+}

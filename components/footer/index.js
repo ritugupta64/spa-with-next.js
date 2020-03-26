@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer>
       <nav>
-        <Link href={Routes.semanticRule}>
-          <a>Semantic Rules |</a>
+        <Link href={Routes.bestPractice}>
+          <a>Best Practice |</a>
         </Link>
         <Link href={Routes.hideElement}>
           <a>Hide Element |</a>
@@ -17,8 +17,17 @@ const Footer = () => {
         <Link href={Routes.focusManagement}>
           <a>Focus Management |</a>
         </Link>
-        <Link href={Routes.notificationAccessible}>
-          <a>Notification Accessible</a>
+        <Link href={Routes.debugging}>
+          <a>React Axe debugging tool |</a>
+        </Link>
+        <Link href={Routes.graph}>
+          <a>Graphs and Charts |</a>
+        </Link>
+        <Link href={Routes.media}>
+          <a>Audio and Video |</a>
+        </Link>
+        <Link href={Routes.defect}>
+          <a>Defects</a>
         </Link>
       </nav>
     </footer>

@@ -1,12 +1,22 @@
+import { useEffect, useRef } from 'react'
 import Layout from "../components/layout";
 import PageTitle from "../components/pageTitle";
 
 const textualMeaning = () => {
+  const mainPageRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      mainPageRef.current.focus();
+    }, 1000);
+  });
+
   return (
     <Layout>
       <PageTitle title = "Textual meaning" />
-      <div className="inner-container">
-        <h2>Every interactive element should have a textual implementation</h2>
+      <div className="inner-container" aria-labelledby = "page-heading" ref={mainPageRef}
+        tabIndex="-1">
+        <h1>Every interactive element should have a textual implementation</h1>
         <button className="button-error" aria-label="there is an error">
           <svg viewBox="0 0 453.415 453.416">
             <path

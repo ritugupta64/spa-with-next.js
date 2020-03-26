@@ -10,9 +10,6 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <h1>Accessibility-A11Y</h1>
-      </header>
       <main>{children}</main>
       <Footer />
     </div>

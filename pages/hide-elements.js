@@ -1,15 +1,25 @@
+import { useEffect, useRef } from 'react'
 import Layout from "../components/layout";
 import PageTitle from "../components/pageTitle";
 
 const hideElement = () => {
+  const mainPageRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      mainPageRef.current.focus();
+    }, 1000);
+  });
+  
   return (
     <Layout>
       <PageTitle title = "hide element" />
-      <div className="inner-container">
-        <h2>
+      <div className="inner-container" aria-labelledby = "page-heading" ref={mainPageRef}
+        tabIndex="-1">
+        <h1 id="page-heading">
           To hide the element, don't use display: none, visibility: hidden and
           hidden attribute
-        </h2>
+        </h1>
         <button className="button-primary">
           <span>required info</span>
           <svg className="svg-icon" viewBox="0 0 20 20">

@@ -1,5 +1,5 @@
 .container {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 main {
-  padding: 5rem 0;
+  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  background-color: ghostwhite;
 }
 footer a {
   padding-right: 10px;
@@ -113,4 +118,189 @@ svg {
   max-width:960px;
   width: 100%;
   margin: 0 auto;
+}
+
+
+.highcharts-description{
+  visibility: hidden;
+}
+
+#wrapper{
+  height: 400px;
+}
+
+#meter{
+  width: 100%;
+  height: 100%;
+  transform: rotateX(180deg);
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.App-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 10vh;
+  z-index: 1;
+}
+
+
+.sidenav {
+  height: 100vh;
+  width: 200px;
+  top:0;
+  position: fixed;
+  background-color: #88b9f5;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  margin-top: 10vh;
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: Black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.hero-img{
+  width: 100%;
+}
+
+.hero-content{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 25%
+}
+
+.App-aboutUs{
+  padding: 3rem;
+}
+
+.App-services{
+  padding: 0 3rem 3rem;
+}
+
+h3.w3l-sub {
+  font-size: 3em;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+p.sub-p {
+  font-size: 2em;
+  color: #000;
+  letter-spacing: 2px;
+  margin: .3em 0;
+}
+
+p.sub-p2 {
+  color: #ea8116;
+  font-size: 1.6em;
+}
+
+p.sub-p3 {
+  margin: 1em 0;
+}
+
+.App-cards{
+  margin-bottom: 200px;
+  padding-left: 30px;
+}
+
+.App-cards img{
+  padding: 30px
+}
+
+.scroll-region{
+  height: 200px;
+  overflow-y: auto;
+  width: 30vw;
+  border: 1px solid grey;
+  margin: 20px 50px;
+}
+
+.scroll-region div{
+  height: 100%;
+}
+
+a.skip-main {
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+  color: #fff;
+  background-color:#000;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  overflow:auto;
+  padding:5px;
+  border:4px solid yellow;
+  text-align:center;
+  font-size:1.2em;
+  z-index:999;
+}
+form{
+  width:30vw;
+  padding:30px
+}
+form input{
+  outline: none;
+    padding: 10px;
+    font-size: 1em;
+    color: #555;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    margin: 20px;
+}
+
+button{
+  width: auto;
+  padding: 10px 30px;
+  margin: 20px;
 }

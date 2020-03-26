@@ -1,10 +1,13 @@
 const routes = {
     home: "/",
-    semanticRule: "/semantic-rules",
+    bestPractice: "/best-practice",
     hideElement: "/hide-elements",
     textualMeaning: "/textual-meaning",
     focusManagement: "/focus-management",
-    notificationAccessible: "/notification-accessible"
+    debugging: "/debugging",
+    graph: "/graph",
+    media: "/media",
+    defect: "/defect"
 }
 
 export default routes

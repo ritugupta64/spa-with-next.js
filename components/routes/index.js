@@ -7,7 +7,9 @@ const routes = {
     debugging: "/debugging",
     graph: "/graph",
     media: "/media",
-    defect: "/defect"
+    defect: "/defect",
+    table: "/table",
+    issuesList: "/issues-list"
 }
 
 export default routes

@@ -1,0 +1,22 @@
+h1 {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+table {
+    width: auto;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 1.5rem;
+}
+table caption {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+table th {
+    text-align: left;
+    background-color: #ccc;
+}

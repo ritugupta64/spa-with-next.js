@@ -1,0 +1,35 @@
+
+#form1 p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 1.5rem;
+}
+
+.divTable
+{
+    display:  table;
+    width:auto;
+    background-color:#eee;
+    border:1px solid  #666666;
+    border-spacing:5px;
+    margin-left: 1.5rem;
+    
+}
+
+.divRow
+{
+   display:table-row;
+   width:auto;
+}
+
+.divCell
+{
+    float:left;
+    display:table-column;
+    width:120px;
+    background-color:#ccc;
+}
+

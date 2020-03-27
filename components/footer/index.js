@@ -21,14 +21,21 @@ const Footer = () => {
           <a>React Axe debugging tool |</a>
         </Link>
         <Link href={Routes.graph}>
-          <a>Graphs and Charts |</a>
+          <a>SVG and Charts |</a>
         </Link>
         <Link href={Routes.media}>
           <a>Audio and Video |</a>
         </Link>
-        <Link href={Routes.defect}>
-          <a>Defects</a>
+        <Link href={Routes.table}>
+          <a>Table |</a>
         </Link>
+        <Link href={Routes.defect}>
+          <a>Defects app |</a>
+        </Link>
+        <Link href={Routes.issuesList}>
+          <a>Common accessibility issues</a>
+        </Link>
+       
       </nav>
     </footer>
   );

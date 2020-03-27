@@ -25,7 +25,7 @@ function Defects() {
       <div className="sidenav">
       {/* 3: Links must have discernible text*/}
         <a href="#home" aria-label="Navigate to home section">Home</a>
-        <a href="#about" aria-label="Navigate to About section">About</a>
+        <a href="#service" aria-label="Navigate to Service section">Services</a>
         <a href="#cards" aria-label="Navigate to Cards section">Cards</a>
       </div>
 
@@ -38,7 +38,7 @@ function Defects() {
             </header>
         </section>
 
-        <section id="about" className="App-aboutUs">
+        <section id="service" className="App-aboutUs">
               <h3 class="w3l-sub">Offering the most </h3>
               <p class="sub-p">competitive rates and fees</p>
               <p class="sub-p2">Lorem ipsum dolor sit amet, do eiusmod magna aliqua</p>

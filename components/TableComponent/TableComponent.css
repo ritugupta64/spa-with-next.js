@@ -5,7 +5,7 @@ h1 {
 table {
     width: auto;
     margin-bottom: 1rem;
-    border-collapse: collapse;
+    border-collapse: separate;
     border-spacing: 0;
     margin-left: 1.5rem;
 }
@@ -16,7 +16,13 @@ table caption {
     font-weight: 600;
     padding: 10px 0;
 }
+table th, table td{
+    padding: 5px;
+}
 table th {
     text-align: left;
     background-color: #ccc;
+}
+table button {
+    margin: 0;
 }

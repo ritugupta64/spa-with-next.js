@@ -8,8 +8,8 @@ function TableComponentDiv() {
             <form id="form1">
                 <p>Non Semantic Table</p>
                 <div class="divTable">
-                    <div class="headRow" role="row">
-                        <div class="divCell" role="cell" >ID</div>
+                    <div class="headRow">
+                        <div class="divCell">ID</div>
                         <div  class="divCell">Name</div>
                         <div  class="divCell">Address</div>
                     </div>

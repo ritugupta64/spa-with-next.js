@@ -51,9 +51,8 @@ function Defects() {
 
         <form action="#" method="post" id="defects-form">
           <div class="wthree_contact_left_grid">
-            <label for="name">Enter Your Name<input type="text" name="Name" placeholder="Name" id="name" required=""/></label>
-            {/* 9: Missing Mobile Keyboard Usability Enhancements for Input types */}
-            <label for="age">Enter Your Age<input type="number" name="Age" placeholder="Age" id="age" required=""/></label>
+            <input type="text" name="Name" placeholder="Name" id="name" required=""/>
+            <input type="number" name="Age" placeholder="Age" id="age" required=""/>
           </div>
           <button aria-label="click to submit form" onClick={(event)=>{event.preventDefault()}}> Submit </button>
         </form>
@@ -61,10 +60,10 @@ function Defects() {
 
       <section id="cards" className="App-cards">
           <h2 class="w3l-sub">Available Cards for you </h2>
-              <img src={Card1} alt="invalid"></img>
-              <img src={Card2} alt=""></img>
-              <img src={Card3} alt="card image1"></img>
-              <img src={Card4} alt="card image2"></img>
+              <img src={Card1} alt="Visa Gold Card ending with 9010"></img>
+              <img src={Card2} alt="Prepaid card ending with 3454"></img>
+              <img src={Card3} alt="Visa Card ending with 0000"></img>
+              <img src={Card4} alt="Scene scotia Card ending with 6789"></img>
         </section>
 
         </div>

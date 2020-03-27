@@ -3,10 +3,11 @@ import BannerImg from '../../static/media/banner1.jpg';
 import fixture1 from '../../static/media/d-f-1.png';
 import fixture2 from '../../static/media/d-f-2.png';
 import fixture4 from '../../static/media/d-f-4.png';
-import fixture5 from '../../static/media/d-f-4.png';
-import Card2 from '../../static/media/card2.jpg';
-import Card3 from '../../static/media/Card3.jpg';
-import Card4 from '../../static/media/Card4.jpg';
+import fixture5 from '../../static/media/d-f-5.png';
+import fixture6 from '../../static/media/d-f-5.png';
+import fixture7 from '../../static/media/d-f-5.png';
+import fixture8 from '../../static/media/d-f-5.png';
+import fixture9 from '../../static/media/d-f-5.png';
 
 import '../../styles/style.css';
 
@@ -26,9 +27,10 @@ function Defects() {
             the same brightness, which makes them hard to distinguish outlines, borders, edges, and details</a></li>
             <li><a href={fixture4} aria-label="issue 4" target="new">Navigating through pages quickly is difficult and confusing for 
             screen reader as title is not descriptive and unique</a></li>
-            <li><a href={fixture5} aria-label="Issue " target="new">Screen reader is not specifying the purpose of images 
+            <li><a href={fixture5} aria-label="issue 5" target="new">Screen reader is not specifying the purpose of images 
             on page properly</a></li>
-            <li><a href="" aria-label="Issue ">Links must have discernible text</a></li>
+            <li><a href={fixture6} aria-label="issue 6">Screen readers are not able to programmatically determine information about 
+            input objects in form</a></li>
             <li><a href="" aria-label="Issue ">Ensure that scrollable region has keyboard access</a></li>
             <li><a href="" aria-label="Issue ">Skip to main content not present</a></li>
             <li><a href="" aria-label="Issue ">Ensures role attribute has an appropriate value for the element</a></li>

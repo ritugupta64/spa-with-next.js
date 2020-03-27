@@ -195,17 +195,18 @@ svg {
 }
 
 #mainSection h1 {
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .main {
   margin-left: 200px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+h2.w3l-sub {
+  padding-left: 2rem;
 }
+
+
 
 .hero-img{
   width: 100%;
@@ -255,7 +256,8 @@ p.sub-p3 {
 }
 
 .App-cards img{
-  padding: 30px
+  padding: 30px;
+  border-radius: 40px;
 }
 
 .scroll-region{
@@ -279,6 +281,7 @@ a.skip-main {
   overflow:hidden;
   z-index:-999;
 }
+
 a.skip-main:focus, a.skip-main:active {
   color: #fff;
   background-color:#000;
@@ -293,9 +296,10 @@ a.skip-main:focus, a.skip-main:active {
   font-size:1.2em;
   z-index:999;
 }
+
 form#defects-form{
     width: 40vw;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 form#defects-form input{
   outline: none;
@@ -315,4 +319,9 @@ button{
 
 .IssueList h1 {
   font-size: 1.5rem;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

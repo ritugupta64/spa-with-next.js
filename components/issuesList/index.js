@@ -6,7 +6,7 @@ import fixture4 from '../../static/media/d-f-4.png';
 import fixture5 from '../../static/media/d-f-5.png';
 import fixture6 from '../../static/media/d-f-6.png';
 import fixture7 from '../../static/media/d-f-5.png';
-import fixture8 from '../../static/media/d-f-5.png';
+import fixture8 from '../../static/media/d-f-8.png';
 import fixture9 from '../../static/media/d-f-5.png';
 
 import '../../styles/style.css';
@@ -35,7 +35,7 @@ function Defects() {
             scrollable region</a></li>
             <li><a href={fixture8} aria-label="issue 8" target="new">User is unable to get a "glimpse" of the page's layout and structure, 
             using headings user can use keyboard shortcuts to navigate through the heading structure of a document</a></li>
-            <li><a href={fixture9} aria-label="issue 9" target="new">Ensures role attribute has an appropriate value for the element</a></li>
+            <li><a href={fixture9} aria-label="issue 9" target="new">Page is not having correct sematic markups</a></li>
         </ol>
 
         <h2>Mobile Issues</h2>

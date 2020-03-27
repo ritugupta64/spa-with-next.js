@@ -19,9 +19,9 @@ function Defects() {
       {/* 6: Skip to main content link not present*/}
       <a class="skip-main" href="#mainSection">Skip to main content</a>
 
-      <div class="sidenav" role="navigation">
+      <div class="sidenav" role="tablist">
       {/* 3: Links must have discernible text*/}
-        <a href="#home" aria-label="Navigate to home section">Home</a>
+        <a href="#home" role="listitem" aria-label="Navigate to home section">Home</a>
         <a href="#service" aria-label="Navigate to About section">Services</a>
         <a href="#cards" aria-label="Navigate to Cards section">Cards</a>
       </div>
@@ -34,7 +34,7 @@ function Defects() {
              <img className="hero-img" src={BannerImg} alt="banner showing the details"/>
             </div>
         </section>
-        
+        <h1>XYZ bank's Website</h1>
         <section id="service" className="App-aboutUs">
               <h3 class="w3l-sub">Offering the most </h3>
               <p class="sub-p">competitive rates and fees</p>

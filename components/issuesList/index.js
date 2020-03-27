@@ -3,11 +3,13 @@ import BannerImg from '../../static/media/banner1.jpg';
 import fixture1 from '../../static/media/d-f-1.png';
 import fixture2 from '../../static/media/d-f-2.png';
 import fixture4 from '../../static/media/d-f-4.png';
-import fixture5 from '../../static/media/d-f-5.png';
 import fixture6 from '../../static/media/d-f-6.png';
 import fixture7 from '../../static/media/d-f-5.png';
 import fixture8 from '../../static/media/d-f-8.png';
-import fixture9 from '../../static/media/d-f-5.png';
+import fixture9 from '../../static/media/d-f-9.png';
+import fixture5 from '../../static/media/d-f-5.png';
+import fixture10 from '../../static/media/d-f-5.png';
+import fixture11 from '../../static/media/d-f-5.png';
 
 import '../../styles/style.css';
 
@@ -40,8 +42,8 @@ function Defects() {
 
         <h2>Mobile Issues</h2>
         <ol>
-            <li><a href="" aria-label="Issue 8">Link not highlighted and even reading on mobile web view</a></li>
-            <li><a href="" aria-label="Issue 9">Missing Mobile Keyboard Usability Enhancements for Input types</a></li>
+            <li><a href={fixture10} aria-label="Issue 10" target="new">Element not highlighted and even not read on mobile web view via Talkback</a></li>
+            <li><a href={fixture11} aria-label="Issue 11" target="new">Missing Mobile Keyboard Usability Enhancements for Input Types</a></li>
         </ol>
     </div>
     </>

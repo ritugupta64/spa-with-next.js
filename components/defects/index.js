@@ -51,7 +51,7 @@ function Defects() {
         <form action="#" method="post" id="defects-form">
           <div class="wthree_contact_left_grid">
             <label for="name">Enter Your Name<input type="text" name="Name" placeholder="Name" id="name" required=""/></label>
-            <label for="age">Enter Your Age<input type="number" name="Age" placeholder="Age" id="age" required=""/></label>
+            <label for="age">Enter Your Age<input type="text" name="Age" placeholder="Age" id="age" required=""/></label>
           </div>
           <button aria-label="click to submit form" onClick={(event)=>{event.preventDefault()}}> Submit </button>
         </form>

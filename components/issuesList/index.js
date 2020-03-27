@@ -4,7 +4,7 @@ import fixture1 from '../../static/media/d-f-1.png';
 import fixture2 from '../../static/media/d-f-2.png';
 import fixture4 from '../../static/media/d-f-4.png';
 import fixture5 from '../../static/media/d-f-5.png';
-import fixture6 from '../../static/media/d-f-5.png';
+import fixture6 from '../../static/media/d-f-6.png';
 import fixture7 from '../../static/media/d-f-5.png';
 import fixture8 from '../../static/media/d-f-5.png';
 import fixture9 from '../../static/media/d-f-5.png';
@@ -29,11 +29,13 @@ function Defects() {
             screen reader as title is not descriptive and unique</a></li>
             <li><a href={fixture5} aria-label="issue 5" target="new">Screen reader is not specifying the purpose of images 
             on page properly</a></li>
-            <li><a href={fixture6} aria-label="issue 6">Screen readers are not able to programmatically determine information about 
+            <li><a href={fixture6} aria-label="issue 6" target="new">Screen readers are not able to programmatically determine information about 
             input objects in form</a></li>
-            <li><a href="" aria-label="Issue ">Ensure that scrollable region has keyboard access</a></li>
-            <li><a href="" aria-label="Issue ">Skip to main content not present</a></li>
-            <li><a href="" aria-label="Issue ">Ensures role attribute has an appropriate value for the element</a></li>
+            <li><a href={fixture7} aria-label="issue 7" target="new">Keyboard navigation failing when focus moves to an element within a 
+            scrollable region</a></li>
+            <li><a href={fixture8} aria-label="issue 8" target="new">User is unable to get a "glimpse" of the page's layout and structure, 
+            using headings user can use keyboard shortcuts to navigate through the heading structure of a document</a></li>
+            <li><a href={fixture9} aria-label="issue 9" target="new">Ensures role attribute has an appropriate value for the element</a></li>
         </ol>
 
         <h2>Mobile Issues</h2>

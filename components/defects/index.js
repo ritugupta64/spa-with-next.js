@@ -34,7 +34,7 @@ function Defects() {
              <img className="hero-img" src={BannerImg} alt="banner showing the details"/>
             </div>
         </section>
-        <h1>XYZ bank's Website</h1>
+        
         <section id="service" className="App-aboutUs">
               <h3 class="w3l-sub">Offering the most </h3>
               <p class="sub-p">competitive rates and fees</p>
@@ -42,8 +42,7 @@ function Defects() {
               <p class="sub-p3">Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </section>
 
-      {/* 5: Ensure that scrollable region has keyboard access*/}
-              <div id="pass1" className="scroll-region" tabindex="0">
+        <div id="pass1" className="scroll-region" tabindex="0">
             <div>
                 <p>scrollable region</p>
             </div>
@@ -51,8 +50,8 @@ function Defects() {
 
         <form action="#" method="post" id="defects-form">
           <div class="wthree_contact_left_grid">
-            <input type="text" name="Name" placeholder="Name" id="name" required=""/>
-            <input type="number" name="Age" placeholder="Age" id="age" required=""/>
+            <label for="name">Enter Your Name<input type="text" name="Name" placeholder="Name" id="name" required=""/></label>
+            <label for="age">Enter Your Age<input type="number" name="Age" placeholder="Age" id="age" required=""/></label>
           </div>
           <button aria-label="click to submit form" onClick={(event)=>{event.preventDefault()}}> Submit </button>
         </form>

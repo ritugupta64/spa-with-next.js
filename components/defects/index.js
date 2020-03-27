@@ -61,10 +61,10 @@ function Defects() {
 
       <section id="cards" className="App-cards">
           <h2 class="w3l-sub">Available Cards for you </h2>
-              <img src={Card1} alt="Visa Gold Card ending with 9010"></img>
-              <img src={Card2} alt="Prepaid card ending with 3454"></img>
-              <img src={Card3} alt="Visa Card ending with 0000"></img>
-              <img src={Card4} alt="Scene scotia Card ending with 6789"></img>
+              <img src={Card1} alt="invalid"></img>
+              <img src={Card2} alt=""></img>
+              <img src={Card3} alt="card image1"></img>
+              <img src={Card4} alt="card image2"></img>
         </section>
 
         </div>

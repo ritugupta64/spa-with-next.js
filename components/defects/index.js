@@ -39,7 +39,7 @@ function Defects() {
         </section>
         <h1>XYZ bank's Website</h1>
         <section id="service" className="App-aboutUs">
-              <h3 class="w3l-sub">Offering the most </h3>
+              <h3 class="w3l-sub" tabIndex="1">Offering the most </h3>
               <p class="sub-p">competitive rates and fees</p>
               <p class="sub-p2">Lorem ipsum dolor sit amet, do eiusmod magna aliqua</p>
               <p class="sub-p3">Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -52,7 +52,7 @@ function Defects() {
             </div>
         </div>
 
-  <form action="#" method="post" id="defects-form">
+        <form action="#" method="post" id="defects-form">
           <div class="wthree_contact_left_grid">
             <label for="name">Enter Your Name<input type="text" name="Name" placeholder="Name" id="name" required=""/></label>
             {/* 9: Missing Mobile Keyboard Usability Enhancements for Input types */}

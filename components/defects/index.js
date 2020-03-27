@@ -44,7 +44,7 @@ function Defects() {
 
         <div id="pass1" className="scroll-region" tabindex="0">
             <div>
-                <p>scrollable region</p>
+                scrollable region
             </div>
         </div>
 

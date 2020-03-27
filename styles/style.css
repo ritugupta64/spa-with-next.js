@@ -169,11 +169,11 @@ svg {
 .sidenav {
   height: 100vh;
   width: 200px;
-  top:0;
   position: fixed;
   background-color: #88b9f5;
   overflow-x: hidden;
   padding-top: 20px;
+  top: 0;
 }
 
 .sidenav a {
@@ -187,6 +187,15 @@ svg {
 
 .sidenav a:hover {
   color: #f1f1f1;
+}
+
+#mainSection {
+  position: relative;
+  margin-top: -82px;
+}
+
+#mainSection h1 {
+  padding-left: 3rem;
 }
 
 .main {
@@ -218,7 +227,6 @@ svg {
 }
 
 h3.w3l-sub {
-  font-size: 3em;
   color: #000;
   font-weight: 600;
   letter-spacing: 1px;
@@ -286,12 +294,12 @@ a.skip-main:focus, a.skip-main:active {
   z-index:999;
 }
 form#defects-form{
-  width:30vw;
-  padding:30px
+    width: 40vw;
+    margin-left: 50px;
 }
-form input{
+form#defects-form input{
   outline: none;
-    padding: 10px;
+    padding: 20px;
     font-size: 1em;
     color: #555;
     width: 100%;

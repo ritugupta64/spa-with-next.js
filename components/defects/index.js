@@ -30,7 +30,7 @@ function Defects() {
 
         <section>
            {/* 7: Document must not have more than one banner landmark*/}
-            <div aria-label="banner">
+            <div className="banner" aria-label="banner">
              <img className="hero-img" src={BannerImg} alt="banner showing the details"/>
             </div>
         </section>
@@ -51,7 +51,7 @@ function Defects() {
         <form action="#" method="post" id="defects-form">
           <div class="wthree_contact_left_grid">
             <label for="name">Enter Your Name<input type="text" name="Name" placeholder="Name" id="name" required=""/></label>
-            <label for="age">Enter Your Age<input type="text" name="Age" placeholder="Age" id="age" required=""/></label>
+            <label for="age">Enter Your Age<input type="number" name="Age" placeholder="Age" id="age" min="0" max="90" required=""/></label>
           </div>
           <button aria-label="click to submit form" onClick={(event)=>{event.preventDefault()}}> Submit </button>
         </form>

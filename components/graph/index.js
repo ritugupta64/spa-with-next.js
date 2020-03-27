@@ -78,8 +78,8 @@ const Graph = () => (
             <circle id="outline_curves" r="150" cx="50%" cy="50%" stroke="#f6f6f6" stroke-width="65" stroke-dasharray="471, 943" fill="none"></circle>
             <circle id="low" r="150" cx="50%" cy="50%" stroke="#FDE47F" stroke-width="60" stroke-dasharray="471, 943" fill="none"></circle>
             <circle id="avg" r="150" cx="50%" cy="50%" stroke="#7CCCE5" stroke-width="60" stroke-dasharray="300, 943" fill="none"></circle>
-            <circle id="high" r="150" cx="50%" cy="50%" stroke="#E04644" stroke-width="60" stroke-dasharray="137, 943" fill="none"></circle>
-            <circle id="high" r="150" cx="50%" cy="50%" stroke="#00FF00" stroke-width="60" stroke-dasharray="34, 943" fill="none"></circle>
+            <circle id="high1" r="150" cx="50%" cy="50%" stroke="#E04644" stroke-width="60" stroke-dasharray="137, 943" fill="none"></circle>
+            <circle id="high2" r="150" cx="50%" cy="50%" stroke="#00FF00" stroke-width="60" stroke-dasharray="34, 943" fill="none"></circle>
             <text x="160" y="200" fill="black" transform="scale(1,-1) translate(510,-430)" aria-labelledby="content">Your Score Is 550</text>
           </svg>
           <div id="content">Your Score is 550 currently</div>

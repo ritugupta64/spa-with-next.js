@@ -9,7 +9,7 @@ import fixture8 from '../../static/media/d-f-8.png';
 import fixture9 from '../../static/media/d-f-9.png';
 import fixture5 from '../../static/media/d-f-5.png';
 import fixture10 from '../../static/media/d-f-5.png';
-import fixture11 from '../../static/media/d-f-5.png';
+import fixture11 from '../../static/media/d-f-11.png';
 
 import '../../styles/style.css';
 

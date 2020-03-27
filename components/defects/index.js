@@ -18,14 +18,11 @@ function Defects() {
     <div className="App">
       {/* 6: Skip to main content link not present*/}
       <a class="skip-main" href="#mainSection">Skip to main content</a>
-      {/* <header id="home" className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
 
-      <div class="sidenav">
+      <div class="sidenav" role="tablist">
       {/* 3: Links must have discernible text*/}
-        <a href="#home" aria-label="Navigate to home section">Home</a>
-        <a href="#about" aria-label="Navigate to About section">About</a>
+        <a href="#home" role="listitem" aria-label="Navigate to home section">Home</a>
+        <a href="#service" aria-label="Navigate to About section">Services</a>
         <a href="#cards" aria-label="Navigate to Cards section">Cards</a>
       </div>
 
@@ -39,7 +36,7 @@ function Defects() {
         </section>
         <h1>XYZ bank's Website</h1>
         <section id="service" className="App-aboutUs">
-              <h3 class="w3l-sub" tabIndex="1">Offering the most </h3>
+              <h3 class="w3l-sub">Offering the most </h3>
               <p class="sub-p">competitive rates and fees</p>
               <p class="sub-p2">Lorem ipsum dolor sit amet, do eiusmod magna aliqua</p>
               <p class="sub-p3">Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

@@ -16,7 +16,7 @@ const GraphWrapper = () => {
   return (
     <Layout>
       <PageTitle title = "Defects" />
-      <div className="inner-container" aria-labelledby = "page-heading" ref={mainPageRef}
+      <div className="inner-container" aria-label = "page-heading" ref={mainPageRef}
         tabIndex="-1">
        <Defects />
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import BannerImg from '../../static/media/banner1.jpg';
-import fixture1 from '../../static/media/fixture1.png';
+import fixture1 from '../../static/media/d-f-1.png';
 import Card2 from '../../static/media/card2.jpg';
 import Card3 from '../../static/media/Card3.jpg';
 import Card4 from '../../static/media/Card4.jpg';

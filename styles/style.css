@@ -121,18 +121,22 @@ svg {
 }
 
 
-.highcharts-description{
-  visibility: hidden;
-}
-
 #wrapper{
   height: 400px;
+}
+
+#wrapper h2, .meter-traingle{
+  text-align: center;
 }
 
 #meter{
   width: 100%;
   height: 100%;
   transform: rotateX(180deg);
+}
+
+.App-highcharts svg{
+  width: 100%;
 }
 
 .App-logo {

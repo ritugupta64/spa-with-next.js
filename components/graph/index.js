@@ -69,9 +69,12 @@ const Graph = () => (
     <div className="App">
       <div id="wrapper">
           <h2>Credit score Graph</h2>
-          <svg height="40px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 100 100 L 300 100 L 200 300 z" fill="LightBlue" stroke="Blue" stroke-width="1" />
-          </svg>
+          <div className="meter-traingle">
+            <svg height="40px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 100 100 L 300 100 L 200 300 z" fill="LightBlue" stroke="Blue" stroke-width="1" />
+            </svg>
+          </div>
+
           <svg id="meter" aria-labelledby="title" aria-describedby="desc" role="img">
             <title id="title">Depicts the Credit Score Guage Meter for you</title>
             <desc id="desc">Semi Circle with Yellow, blue , red and green color</desc>
@@ -79,14 +82,14 @@ const Graph = () => (
             <circle id="low" r="150" cx="50%" cy="50%" stroke="#FDE47F" stroke-width="60" stroke-dasharray="471, 943" fill="none"></circle>
             <circle id="avg" r="150" cx="50%" cy="50%" stroke="#7CCCE5" stroke-width="60" stroke-dasharray="300, 943" fill="none"></circle>
             <circle id="high" r="150" cx="50%" cy="50%" stroke="#E04644" stroke-width="60" stroke-dasharray="137, 943" fill="none"></circle>
-            <circle id="high" r="150" cx="50%" cy="50%" stroke="#00FF00" stroke-width="60" stroke-dasharray="34, 943" fill="none"></circle>
-            <text x="160" y="200" fill="black" transform="scale(1,-1) translate(510,-430)" aria-labelledby="content">Your Score Is 550</text>
+            <circle id="very-high" r="150" cx="50%" cy="50%" stroke="#00FF00" stroke-width="60" stroke-dasharray="34, 943" fill="none"></circle>
+            <text x="160" y="200" fill="black" transform="scale(1,-1) translate(240,-430)" aria-labelledby="content">Your Score Is 550</text>
           </svg>
           <div id="content">Your Score is 550 currently</div>
       </div>
       <hr/>
-      <div><HighchartsReact options = {config}/></div>
-      <p><i>This chart shows your credit score figures during the last 1 year (2020). The number indicate that credit score increases dramatically in every 4th quarter, remain high in the 1st quarter, then decline rapidly in the 2nd and 3rd quarters. </i></p>
+      <div className="App-highcharts"><HighchartsReact options = {config}/></div>
+      <p className="highcharts-summary"><i>This chart shows your credit score figures during the last 1 year (2020). The number indicate that credit score increases dramatically in every 4th quarter, remain high in the 1st quarter, then decline rapidly in the 2nd and 3rd quarters. </i></p>
     </div>
 );
 

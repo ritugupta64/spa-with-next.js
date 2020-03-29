@@ -31,6 +31,14 @@ const semanticRules = () => {
           <a href="/js/">JavaScript</a>
           <a href="/jquery/">jQuery</a>
         </nav>
+        <h2>if nav element is more than one</h2>
+        <p>Then always use aria-label="unique-name"</p>
+      
+        <nav className="navigation" aria-label="nav2">
+          <a href="/js/">JavaScript</a>
+          <a href="/jquery/">jQuery</a>
+        </nav>
+
       </div>
     </Layout>
   );

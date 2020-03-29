@@ -8,6 +8,9 @@ const config = {
     chart: {
         type: 'column'
     },
+    accessibility: {
+        description: 'Image description: An bar chart This chart shows your credit score figures during the last 1 year (2020). The number indicate that credit score increases dramatically in every 4th quarter, remain high in the 1st quarter, then decline rapidly in the 2nd and 3rd quarters. '
+    },
     title: {
         text: 'Credit Score Trend over the months'
     },
@@ -38,7 +41,7 @@ const config = {
         },
     },
     legend: {
-        enabled: false
+        enabled: true
     },
     tooltip : {
         headerFormat: '<b>{series.name}</b><br>',

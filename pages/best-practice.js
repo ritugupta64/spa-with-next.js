@@ -23,7 +23,7 @@ const semanticRules = () => {
       >
         <PageTitle title="page title Semantic rule" />
         <h1 id="page-heading">
-           Don't use role attribute with semantic element until and unless its not required
+           Don't use role attribute with elements until and unless its not required
         </h1>
         <nav className="navigation" aria-label="nav1" role="navigation">
           <a target="_blank" href="https://docs.google.com/spreadsheets/d/1q12cRzz7fUSOhzUuUC1C7hsh4O5mT4_tvcw6HG6iCzc/edit#gid=0">Accessibility Checklist</a>

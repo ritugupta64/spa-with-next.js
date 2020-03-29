@@ -18,6 +18,8 @@ function Defects() {
     <div className="App">
       <a class="skip-main" href="#mainSection">Skip to main content</a>
 
+      <button id="hamburger" aria-label="Navigation Menu" aria-expanded="false">☰</button>
+
       <div class="sidenav" role="navigation" aria-label="Menu">
         <a href="#home" aria-label="Navigate to home section">Home</a>
         <a href="#service" aria-label="Navigate to Services section">Services</a>

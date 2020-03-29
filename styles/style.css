@@ -302,7 +302,7 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 form#defects-form{
-    width: 40vw;
+    width: 90%;
     margin-left: 35px;
 }
 form#defects-form input{
@@ -310,7 +310,7 @@ form#defects-form input{
     padding: 20px;
     font-size: 1em;
     color: #555;
-    width: 100%;
+    width: 50%;
     border: 1px solid #E6E6E6;
     margin: 20px;
 }
@@ -325,7 +325,10 @@ button{
   font-size: 1.5rem;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+#hamburger {display: none;}
+
+@media screen and (max-width: 450px) {
+  .sidenav {
+    display:none}
+  #hamburger {display: block;}
 }

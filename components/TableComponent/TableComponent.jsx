@@ -27,7 +27,7 @@ function TableComponent(){
               <th scope="row">Alice</th>
               <td>Egghead</td>
               {/* role="row" must have children of cells and role="cell" is cell within the row */}
-              <td>20</td>
+              <td role="row">20</td>
               <td>blue</td>
               <td>
                 <button id="select_1a" aria-label="Select Alice">Select</button>

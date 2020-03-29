@@ -16,20 +16,22 @@ const clickEventHander =() => {
 function Defects() {
   return (
     <div className="App">
-      {/* 6: Skip to main content link not present*/}
       <a class="skip-main" href="#mainSection">Skip to main content</a>
 
       <div class="sidenav" role="navigation" aria-label="Menu">
-      {/* 3: Links must have discernible text*/}
         <a href="#home" aria-label="Navigate to home section">Home</a>
-        <a href="#service" aria-label="Navigate to About section">Services</a>
+        <a href="#service" aria-label="Navigate to Services section">Services</a>
         <a href="#cards" aria-label="Navigate to Cards section">Cards</a>
       </div>
+      {/* <nav class="sidenav">
+        <a href="#home" aria-label="Navigate to home section">Home</a>
+        <a href="#service" aria-label="Navigate to Services section">Services</a>
+        <a href="#cards" aria-label="Navigate to Cards section">Cards</a>
+      </nav> */}
 
       <div id="mainSection" className="main">
 
         <section>
-           {/* 7: Document must not have more than one banner landmark*/}
             <div className="banner" aria-label="banner">
              <img className="hero-img" src={BannerImg} alt="banner showing the details"/>
             </div>
@@ -42,8 +44,8 @@ function Defects() {
               <p class="sub-p3">Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </section>
 
-        <div id="pass1" className="scroll-region" tabindex="0">
-            <div>
+        <div id="pass1" className="scroll-region">
+            <div tabindex="0" aria-label="Press arrow up and down key to scroll"> 
                 scrollable region
             </div>
         </div>

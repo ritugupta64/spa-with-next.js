@@ -19,6 +19,7 @@ const config = {
     },
     xAxis: {
         type: 'datetime',
+        crosshair: true,
         dateTimeLabelFormats: {
             month: '%e. %b',
             year: '%b'
@@ -33,6 +34,7 @@ const config = {
     yAxis: {
         min: 300,
         max: 800,
+        crosshair: true,
         title: {
             text: 'Credit Score'
         },
@@ -73,7 +75,8 @@ const Graph = () => (
       <div id="wrapper">
           <h2>Credit score Graph</h2>
           <div className="meter-traingle">
-            <svg height="40px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <svg height="40px" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"  aria-labelledby="arrowTtitle">
+                <title id="arrowTtitle">Depicts the position on the Graph</title>
                 <path d="M 100 100 L 300 100 L 200 300 z" fill="LightBlue" stroke="Blue" stroke-width="1" />
             </svg>
           </div>

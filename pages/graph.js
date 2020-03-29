@@ -12,14 +12,14 @@ const GraphWrapper = () => {
       mainPageRef.current.focus();
     }, 1000);
   });
-  
+
   return (
     <Layout>
       <PageTitle title = "Graph and charts" />
       <div className="inner-container" aria-labelledby = "page-heading" ref={mainPageRef}
         tabIndex="-1">
         <h1 id="page-heading">
-          Graph and charts
+          SVG and Graph
         </h1>
        <Graph />
       </div>

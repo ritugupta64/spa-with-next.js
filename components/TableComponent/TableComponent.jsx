@@ -27,8 +27,8 @@ function TableComponent(){
               <th scope="row">Alice</th>
               <td>Egghead</td>
               {/* role="row" must have children of cells and role="cell" is cell within the row */}
-              <td role="row">20</td>
-              <td role="row">blue</td>
+              <td>20</td>
+              <td>blue</td>
               <td>
                 <button id="select_1a" aria-label="Select Alice">Select</button>
               </td>
@@ -73,7 +73,7 @@ function TableComponent(){
         </table>
         
         <table class="table2" id="table2" border="1">
-          <caption>Ireegular Headers</caption>
+          <caption>Irregular Headers</caption>
           <thead>
             <tr>
               <th scope="col">Poster name</th>

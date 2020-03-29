@@ -19,7 +19,7 @@ function Defects() {
       {/* 6: Skip to main content link not present*/}
       <a class="skip-main" href="#mainSection">Skip to main content</a>
 
-      <div id="hamburger" aria-label="Navigation Menu" aria-expanded="false">☰</div>
+      <button id="hamburger" aria-label="Navigation Menu" aria-expanded="false">☰</button>
 
       <div class="sidenav" role="navigation" aria-label="Menu">
       {/* 3: Links must have discernible text*/}

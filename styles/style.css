@@ -1,16 +1,14 @@
 .container {
-  min-height: 60vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 main {
-  padding: 0;
   flex: 1;
   display: flex;
+  max-width:960px;
+  margin: 0 auto;
+  min-height: 80vh;
+  padding: 0 0.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -115,7 +113,7 @@ svg {
   margin-bottom: 20px;
 }
 .wrapper{
-  max-width:960px;
+  
   width: 100%;
   margin: 0 auto;
 }
